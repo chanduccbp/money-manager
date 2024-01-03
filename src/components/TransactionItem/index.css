@@ -1,0 +1,26 @@
+/* Write your CSS here */
+
+.t-item {
+  height: 40px;
+  color: #334155;
+  font-weight: bold;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border: solid 1px #cbd5e1;
+  padding-left: 10px;
+}
+
+.d-butt {
+  height: 70%;
+  border-style: none;
+  background-color: transparent;
+}
+
+.para-el {
+  margin-right: 60px;
+}
+
+.del-icon {
+  height: 100%;
+}

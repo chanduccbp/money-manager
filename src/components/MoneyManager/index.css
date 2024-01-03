@@ -1,0 +1,109 @@
+/* Write your CSS here */
+.bg-container {
+  font-family: 'roboto';
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  height: 25%;
+  width: 80%;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.c-text {
+  font-weight: bold;
+  color: #475569;
+}
+
+.s-text {
+  color: #0b69ff;
+  font-weight: bold;
+}
+
+.t-history {
+  list-style-type: none;
+  width: 90%;
+}
+
+.t-cont {
+  height: 45%;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form {
+  width: 40%;
+  border: solid 1px #cbd5e1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.l-el {
+  color: #7e858e;
+}
+
+.f-head {
+  font-size: 26px;
+  margin-bottom: 0px;
+}
+
+.in-el {
+  color: #7e858e;
+}
+
+.butt {
+  background-color: #0b69ff;
+  border-radius: 5px;
+  color: #ffffff;
+  padding: 5px;
+  border-style: none;
+  width: 50px;
+  height: 30px;
+}
+
+.history {
+  width: 50%;
+  border: solid 1px #cbd5e1;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.l-head {
+  height: 40px;
+  color: #334155;
+  font-weight: bold;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border: solid 1px #cbd5e1;
+  padding-left: 10px;
+  background-color: #d7dfe9;
+}
+
+.history-head {
+  font-size: 26px;
+  margin-bottom: 0px;
+  margin-left: 35px;
+}
+
+.span-el {
+  margin-right: 60px;
+}
